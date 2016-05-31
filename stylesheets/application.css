@@ -1,0 +1,47 @@
+#app {
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /*background: #99ff99;*/
+  background: black;
+  font-family: "Lucida Console" ,monospace;
+  border: 5px solid black;
+}
+
+canvas {
+  height: 600px;
+  width: 1000px;
+  font-family: "Press Start 2P";
+  border: 4px #77ff33 solid;
+
+}
+
+h1 {
+  font-family: "Press Start 2P";
+  color: white;
+}
+
+#instructions {
+  color: white;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#joystick {
+  height: 150px;
+  width: auto;
+}
+
+#buttons {
+height: 130px;
+width: auto;
+}

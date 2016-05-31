@@ -1,10 +1,21 @@
 <html>
   <head>
     <title>Space Invaders</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/application.css">
+    <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
   </head>
-  
+
   <body>
-    <canvas></canvas>
+    <div id="app" >
+      <img id="buttons" src="http://i.imgur.com/jxknD4w.png?1"></img>
+
+      <div id="container">
+        <h1>- SPACE INVADERS -</h1>
+        <canvas></canvas>
+        <div id="instructions">A: Left   D: Right   Enter: Shoot    SpaceBar: Restart</div>
+      </div>
+      <img id="joystick" src="http://i.imgur.com/5ovuaN8.png?1"></img>
+    </div>
 
     <script type="application/javascript" src="vendor/keymaster.js"></script>
     <script type="application/javascript" src="lib/bundle.js"></script>
