@@ -15,7 +15,7 @@
 
 ## Images
 ![gameplay]
-![gameover]
+![game_over]
 
 ## Todos
 + Make the game start on a key press.
